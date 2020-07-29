@@ -8,7 +8,7 @@ import { removeFromDeck, moveToBottomOfDeck } from '../../slices/deck';
 
 const MINIMUM_MOVEMENT = 10;
 
-const mapStateToProps = ({ user, deck }) => {
+const mapStateToProps = ({ user }) => {
   return { user };
 };
 const mapDispatchToProps = { updateUser, removeFromDeck, moveToBottomOfDeck };
